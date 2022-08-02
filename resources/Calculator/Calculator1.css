@@ -1,0 +1,58 @@
+body {
+    background: #eee4e4;
+}
+#main {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #aa8d44;
+}
+#cal-title {
+    background: rgb(167, 132, 132);
+    font-size: xx-large;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    padding: 1%;
+    margin: 1px;
+}
+#inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#result {
+    height: 50px;
+    border: 1px solid rgb(255, 251, 251);
+    border-radius: 5px;
+    margin: 10px 3px 10px 3px;
+    padding: 5px;
+    background: rgb(255, 251, 251);
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+    width: 24.47%;
+    margin: 2px;
+    height: 60px;
+    font-size: x-large;
+}
+.operator {
+    background: rgb(172, 65, 86);
+}
+.operator:hover {
+    background: rgb(173, 20, 51);
+}
+#zero {
+    width: 49.47%;
+}
+.AC {
+    text-decoration: none;
+    background: rgb(255, 235, 192);
+    border: 1px solid gray;
+}
+.AC:hover {
+    background: rgb(252, 222, 157);
+}
+.last-line {
+    height: 60px;
+}

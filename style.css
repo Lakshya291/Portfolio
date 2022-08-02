@@ -1,0 +1,91 @@
+/* Global properties */
+body {
+	/* For texture */
+	background: radial-gradient(#e1d9bd 15%, transparent 16%) 0 0,
+		radial-gradient(#dedccb 15%, transparent 16%) 8px 8px,
+		radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
+		radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+	background-color: #393838;
+	background-size: 16px 16px;
+
+	/* Body Css */
+	background-color: #ecebd7;
+	font-family: "Baloo Tamma 2", cursive;
+}
+
+/* Main Heading Font */
+.m-heading {
+	font-family: "Roboto Slab", serif;
+}
+
+/* Brown Color Text */
+.plain-text {
+	color: brown;
+}
+
+/* Navigation */
+.navigation-link {
+	border: 4px solid transparent;
+}
+.navigation-link:hover {
+	color: brown;
+	text-decoration: none;
+	border-bottom: 4px solid#f5ba09;
+	transition: 0.8s ease;
+}
+
+/* Main Container Height */
+.main-container {
+	min-height: 100vh;
+	padding: 1rem;
+}
+
+/* Aligning items to main row */
+.main_row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Setting main row items */
+.main_row h1 {
+	font-size: 4rem;
+}
+.main_row h2 {
+	font-size: 2.5rem;
+}
+.main_row img {
+	width: auto;
+	height: 100vh;
+}
+
+/* Setting about css */
+.self_name {
+	font-size: 2.1rem;
+}
+.about_me {
+	text-align: justify;
+	text-justify: inter-word;
+}
+/* Setting card border */
+.card {
+	border-bottom: 12px solid #f5ba09;
+}
+
+/* Setting css of media links */
+.media_link {
+	padding: 0.2rem;
+	max-width: 15rem;
+	/* margin-right: 18%; */
+	font-size: 0.7rem;
+	border: 3px solid #f5ba09;
+	border-radius: 0.5rem;
+}
+.media_link h3 {
+	font-size: 1.3rem;
+}
+.media_link:hover {
+	border: 3px solid brown;
+	border-radius: 1.5rem;
+	transition: 0.4s ease;
+}
